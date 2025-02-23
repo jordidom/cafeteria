@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta - Cafetería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/styles2.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Cafetería</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carta.html">Carta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <h1>Nuestra Carta</h1>
+        </div>
+    </section>
+    
+    <!-- Botón de descarga -->
+    <div class="container text-center mt-4">
+        <a href="static/img/pdf/carta.pdf" class="btn btn-custom btn-download" download>📄 Descargar Carta en PDF</a>
+    </div>
+    
+    <!-- Imagen de la carta -->
+    <div class="container menu-image">
+        <img src="static/img/carta-completa.webp" alt="Carta Completa" class="img-fluid">
+    </div>
+    <div class="container menu-image">
+        <img src="static/img/carta-completa-2.webp" alt="Carta Completa 2" class="img-fluid">
+    </div>
+    
+    <!-- Menú -->
+    <section class="menu-section">
+        <div class="container">
+            <h2 class="text-center">Descubre Nuestros Platos</h2>
+            
+            <div class="menu-category">
+                <h3>Cafés</h3>
+                <div class="menu-item"><span>Espresso</span><span>€1.50</span></div>
+                <div class="menu-item"><span>Cappuccino</span><span>€2.50</span></div>
+                <div class="menu-item"><span>Latte</span><span>€2.80</span></div>
+            </div>
+            
+            <div class="menu-category">
+                <h3>Pastelería</h3>
+                <div class="menu-item"><span>Croissant</span><span>€1.80</span></div>
+                <div class="menu-item"><span>Tarta de Queso</span><span>€3.50</span></div>
+                <div class="menu-item"><span>Brownie</span><span>€3.00</span></div>
+            </div>
+            
+            <div class="menu-category">
+                <h3>Bocadillos</h3>
+                <div class="menu-item"><span>Bocadillo de Jamón</span><span>€4.50</span></div>
+                <div class="menu-item"><span>Sándwich Vegetal</span><span>€4.00</span></div>
+                <div class="menu-item"><span>Bagel de Salmón</span><span>€5.50</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de pedido -->
+    <section class="order-section">
+        <div class="container">
+            <img src="static/img/cafe-icon.png" alt="Dibujo de café">
+            <h2>Haz tu pedido de forma fácil y cómoda</h2>
+            <a href="#" class="btn btn-custom btn-order">🛒 Hacer Pedido</a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
