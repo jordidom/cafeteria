@@ -14,6 +14,40 @@ body {
     font-size: 3rem;
     font-weight: bold;
 }
+/* Sobre nosotros */
+.about-section {
+    padding: 60px 0;
+}
+.about-text {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.content-section {
+    padding: 50px 0;
+}
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 /* Carta */
 .menu-section {
     padding: 50px 0;
